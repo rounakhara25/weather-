@@ -1,0 +1,117 @@
+*{
+   background-color:pink(158, 158, 205);
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(59, 54, 54);
+    color: whitesmoke;
+}
+h1{background-color: palevioletred;
+    text-align: center;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background:linear-gradient(135deg,palevioletred,#5b548a);
+    color:black;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 20px;
+    text-align: center;
+    
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+
+    border: 0;
+    outline: 0;
+    background-color: whitesmoke(22, 101, 170);
+    color: black;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background-color:plum;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 16px;
+}
+.weather-icon{
+    background-color: rgb(134, 20, 58);
+    width: 170px;
+    margin-top: 30px;
+
+}
+.weather h1{
+    background-color:palevioletred;
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    background-color: palevioletred;
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    background-color:palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+.col
+{
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+.col img{
+    background-color: aliceblue;
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity , .wind{
+    background:palevioletred;
+    font-size: 28px;
+    margin-top: -6px;
+}
+.weather{
+    background-color:palevioletred;
+    display: none;
+}
+.error{
+    display: none;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: darkred;
+    font-size: 25px;
+}   
+
+    
+   
+  
+   
+   
